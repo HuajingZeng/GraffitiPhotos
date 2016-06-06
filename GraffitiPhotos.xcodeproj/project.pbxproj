@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		0A0BC1391D025FBE003BB69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC1381D025FBE003BB69F /* main.m */; };
-		0A0BC13C1D025FBE003BB69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC13B1D025FBE003BB69F /* AppDelegate.m */; };
-		0A0BC13F1D025FBE003BB69F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC13E1D025FBE003BB69F /* ViewController.m */; };
+		0A0BC13C1D025FBE003BB69F /* HJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC13B1D025FBE003BB69F /* HJAppDelegate.m */; };
+		0A0BC13F1D025FBE003BB69F /* HJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC13E1D025FBE003BB69F /* HJViewController.m */; };
 		0A0BC1421D025FBE003BB69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BC1401D025FBE003BB69F /* Main.storyboard */; };
 		0A0BC1441D025FBE003BB69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BC1431D025FBE003BB69F /* Assets.xcassets */; };
-		0A0BC1471D025FBE003BB69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BC1451D025FBE003BB69F /* LaunchScreen.storyboard */; };
+		0A0BC14F1D02630B003BB69F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0BC14E1D02630B003BB69F /* MobileCoreServices.framework */; };
+		0A0BC1511D026314003BB69F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0BC1501D026314003BB69F /* CoreGraphics.framework */; };
+		0A0BC1531D02631B003BB69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0BC1521D02631B003BB69F /* UIKit.framework */; };
+		0A0BC1551D026322003BB69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0BC1541D026322003BB69F /* Foundation.framework */; };
+		0A0BC1581D0269FC003BB69F /* HJDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC1571D0269FC003BB69F /* HJDrawingView.m */; };
+		0A0BC15B1D026AD0003BB69F /* HJColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0BC15A1D026AD0003BB69F /* HJColorPickerViewController.m */; };
+		0A0BC1691D0309CC003BB69F /* HJColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0BC1681D0309CC003BB69F /* HJColorPickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0BC1341D025FBE003BB69F /* GraffitiPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraffitiPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0BC1381D025FBE003BB69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A0BC13A1D025FBE003BB69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0A0BC13B1D025FBE003BB69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A0BC13D1D025FBE003BB69F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A0BC13E1D025FBE003BB69F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A0BC13A1D025FBE003BB69F /* HJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJAppDelegate.h; sourceTree = "<group>"; };
+		0A0BC13B1D025FBE003BB69F /* HJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJAppDelegate.m; sourceTree = "<group>"; };
+		0A0BC13D1D025FBE003BB69F /* HJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJViewController.h; sourceTree = "<group>"; };
+		0A0BC13E1D025FBE003BB69F /* HJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJViewController.m; sourceTree = "<group>"; };
 		0A0BC1411D025FBE003BB69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A0BC1431D025FBE003BB69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A0BC1461D025FBE003BB69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0A0BC1481D025FBE003BB69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0BC14E1D02630B003BB69F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0A0BC1501D026314003BB69F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A0BC1521D02631B003BB69F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A0BC1541D026322003BB69F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A0BC1561D0269FC003BB69F /* HJDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDrawingView.h; sourceTree = "<group>"; };
+		0A0BC1571D0269FC003BB69F /* HJDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDrawingView.m; sourceTree = "<group>"; };
+		0A0BC1591D026AD0003BB69F /* HJColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJColorPickerViewController.h; sourceTree = "<group>"; };
+		0A0BC15A1D026AD0003BB69F /* HJColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJColorPickerViewController.m; sourceTree = "<group>"; };
+		0A0BC1671D0308DB003BB69F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		0A0BC1681D0309CC003BB69F /* HJColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HJColorPickerViewController.xib; sourceTree = "<group>"; };
+		0A141E061D05181800CC508C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0BC1551D026322003BB69F /* Foundation.framework in Frameworks */,
+				0A0BC1531D02631B003BB69F /* UIKit.framework in Frameworks */,
+				0A0BC1511D026314003BB69F /* CoreGraphics.framework in Frameworks */,
+				0A0BC14F1D02630B003BB69F /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,10 @@
 		0A0BC12B1D025FBE003BB69F = {
 			isa = PBXGroup;
 			children = (
+				0A0BC1541D026322003BB69F /* Foundation.framework */,
+				0A0BC1521D02631B003BB69F /* UIKit.framework */,
+				0A0BC1501D026314003BB69F /* CoreGraphics.framework */,
+				0A0BC14E1D02630B003BB69F /* MobileCoreServices.framework */,
 				0A0BC1361D025FBE003BB69F /* GraffitiPhotos */,
 				0A0BC1351D025FBE003BB69F /* Products */,
 			);
@@ -58,14 +81,18 @@
 		0A0BC1361D025FBE003BB69F /* GraffitiPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				0A0BC13A1D025FBE003BB69F /* AppDelegate.h */,
-				0A0BC13B1D025FBE003BB69F /* AppDelegate.m */,
-				0A0BC13D1D025FBE003BB69F /* ViewController.h */,
-				0A0BC13E1D025FBE003BB69F /* ViewController.m */,
+				0A0BC13A1D025FBE003BB69F /* HJAppDelegate.h */,
+				0A0BC13B1D025FBE003BB69F /* HJAppDelegate.m */,
+				0A0BC13D1D025FBE003BB69F /* HJViewController.h */,
+				0A0BC13E1D025FBE003BB69F /* HJViewController.m */,
+				0A0BC1561D0269FC003BB69F /* HJDrawingView.h */,
+				0A0BC1571D0269FC003BB69F /* HJDrawingView.m */,
+				0A0BC1591D026AD0003BB69F /* HJColorPickerViewController.h */,
+				0A0BC15A1D026AD0003BB69F /* HJColorPickerViewController.m */,
+				0A0BC1681D0309CC003BB69F /* HJColorPickerViewController.xib */,
 				0A0BC1401D025FBE003BB69F /* Main.storyboard */,
 				0A0BC1431D025FBE003BB69F /* Assets.xcassets */,
-				0A0BC1451D025FBE003BB69F /* LaunchScreen.storyboard */,
-				0A0BC1481D025FBE003BB69F /* Info.plist */,
+				0A141E071D05181800CC508C /* Info.plist */,
 				0A0BC1371D025FBE003BB69F /* Supporting Files */,
 			);
 			path = GraffitiPhotos;
@@ -75,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				0A0BC1381D025FBE003BB69F /* main.m */,
+				0A0BC1671D0308DB003BB69F /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,6 +133,7 @@
 		0A0BC12C1D025FBE003BB69F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zenghuajing;
 				TargetAttributes = {
@@ -121,6 +150,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 0A0BC12B1D025FBE003BB69F;
 			productRefGroup = 0A0BC1351D025FBE003BB69F /* Products */;
@@ -137,7 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0BC1471D025FBE003BB69F /* LaunchScreen.storyboard in Resources */,
+				0A0BC1691D0309CC003BB69F /* HJColorPickerViewController.xib in Resources */,
 				0A0BC1441D025FBE003BB69F /* Assets.xcassets in Resources */,
 				0A0BC1421D025FBE003BB69F /* Main.storyboard in Resources */,
 			);
@@ -150,9 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0BC13F1D025FBE003BB69F /* ViewController.m in Sources */,
-				0A0BC13C1D025FBE003BB69F /* AppDelegate.m in Sources */,
+				0A0BC13F1D025FBE003BB69F /* HJViewController.m in Sources */,
+				0A0BC13C1D025FBE003BB69F /* HJAppDelegate.m in Sources */,
+				0A0BC15B1D026AD0003BB69F /* HJColorPickerViewController.m in Sources */,
 				0A0BC1391D025FBE003BB69F /* main.m in Sources */,
+				0A0BC1581D0269FC003BB69F /* HJDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,12 +199,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0A0BC1451D025FBE003BB69F /* LaunchScreen.storyboard */ = {
+		0A141E071D05181800CC508C /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0A0BC1461D025FBE003BB69F /* Base */,
+				0A141E061D05181800CC508C /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = GraffitiPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenghuajing.GraffitiPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Debug;
 		};
@@ -275,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = GraffitiPhotos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenghuajing.GraffitiPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Release;
 		};
@@ -301,6 +339,7 @@
 				0A0BC14D1D025FBE003BB69F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,14 +1,14 @@
 //
-//  ViewController.h
+//  AppDelegate.h
 //  GraffitiPhotos
 //
 //  Created by Kevin on 16/6/4.
 //  Copyright © 2016年 zenghuajing. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@interface HJAppDelegate : UIResponder <UIApplicationDelegate>
 
-@interface ViewController : UIViewController
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end
