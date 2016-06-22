@@ -129,7 +129,6 @@
 }
 
 - (IBAction)clear:(id)sender {
-    self.drawingPhoto.image = nil;
     [self.drawingView clearLayer];
 }
 

@@ -21,13 +21,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TabBarBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Od8-61-B7a">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="3BX-ou-dcr"/>
+                                    <constraint firstAttribute="height" constant="50" id="4Me-9S-EB8"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="3BX-ou-dcr"/>
-                                    </mask>
-                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TabBarBackground" translatesAutoresizingMaskIntoConstraints="NO" id="N2Z-tT-aUT">
                                 <rect key="frame" x="0.0" y="550" width="600" height="50"/>
