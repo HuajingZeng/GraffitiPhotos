@@ -14,7 +14,7 @@
 @interface HJViewController ()<UIImagePickerControllerDelegate, UIActionSheetDelegate, UINavigationControllerDelegate, HJColorPickerViewControllerDelegate>
 
 //用于绘画的视图
-@property (weak, nonatomic) IBOutlet HJDrawingView *drawingView;
+@property (strong, nonatomic) IBOutlet HJDrawingView *drawingView;
 //存放选择的照片
 @property (weak, nonatomic) IBOutlet UIImageView *drawingPhoto;
 //工具栏按钮
@@ -39,6 +39,7 @@
     // 初始化颜色和线宽属性
     [self.drawingView setSelectedColor:[UIColor redColor]];
     [self.drawingView setLineWidth:10];
+    
 }
 
 //调用选择照片提醒框
@@ -72,11 +73,14 @@
     UIImage *photo = self.drawingPhoto.image;
     
     UIGraphicsBeginImageContext(self.drawingView.frame.size);
-    [photo drawInRect:self.drawingView.frame];
+    CGRect frame = self.drawingView.frame;
+    frame.origin =CGPointMake(0, 0);
+    [photo drawInRect:frame];
     [self.drawingView.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *resultImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
+    self.drawingPhoto.image = nil;
+    [self.drawingView clearLayer];
     UIImageWriteToSavedPhotosAlbum(resultImage, self, nil, NULL);
 }
 
@@ -108,6 +112,7 @@
     }
     
     self.drawingPhoto.image = image;
+    [self.drawingView clearLayer];
     [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
@@ -123,5 +128,13 @@
     self.drawingView.lineWidth = lineWidth;
 }
 
+- (IBAction)clear:(id)sender {
+    self.drawingPhoto.image = nil;
+    [self.drawingView clearLayer];
+}
+
+- (IBAction)quit:(id)sender {
+    exit(0);
+}
 
 @end

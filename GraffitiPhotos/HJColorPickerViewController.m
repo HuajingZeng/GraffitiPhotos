@@ -10,6 +10,8 @@
 
 @interface HJColorPickerViewController ()
 
+
+
 //控制按钮
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 @property (weak, nonatomic) IBOutlet UIButton *acceptButton;

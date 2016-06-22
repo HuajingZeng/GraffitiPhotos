@@ -19,4 +19,8 @@ typedef NS_ENUM(NSInteger, DrawingMode){
 @property (nonatomic, strong) UIColor *selectedColor;
 //线宽
 @property (nonatomic, assign) CGFloat lineWidth;
+
+// 清除图层内容
+- (void)clearLayer;
+
 @end

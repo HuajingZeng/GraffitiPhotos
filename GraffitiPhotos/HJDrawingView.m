@@ -107,4 +107,11 @@
     [self handleTouches];
 }
 
+// 清除图层内容
+- (void)clearLayer {
+    self.image = nil;
+    
+    [self setNeedsDisplay];
+}
+
 @end
