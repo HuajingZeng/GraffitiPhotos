@@ -86,7 +86,7 @@
 
 #pragma mark - UIActionSheetDelegate methods
 //监听动作按钮点击事件
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
     [actionSheet dismissWithClickedButtonIndex:1 animated:YES];
     if (buttonIndex == 0) {
         UIImagePickerController *mediaUI = [[UIImagePickerController alloc] init];

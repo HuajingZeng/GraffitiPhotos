@@ -37,6 +37,22 @@
     },
     {
       "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "LaunchImageiPadPortraitiOS78_768x1024pt.png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "LaunchImageiPadPortraitiOS78_768x1024pt@2x.png",
+      "extent" : "full-screen",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
       "idiom" : "iphone",
       "filename" : "LaunchImageiPhonePortraitiOS56_320x480pt.png",
       "extent" : "full-screen",

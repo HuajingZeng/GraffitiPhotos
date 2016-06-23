@@ -306,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenghuajing.GraffitiPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Debug;
@@ -325,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zenghuajing.GraffitiPhotos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WARNING_CFLAGS = "-Wno-deprecated-declarations";
 			};
 			name = Release;

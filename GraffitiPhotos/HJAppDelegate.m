@@ -7,6 +7,7 @@
 //
 
 #import "HJAppDelegate.h"
+#import "HJViewController.h"
 
 @interface HJAppDelegate ()
 
